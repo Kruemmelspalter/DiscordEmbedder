@@ -17,10 +17,7 @@
     ],
     "brace-style": [
       "error",
-      "1tbs",
-      {
-        "allowSingleLine": true
-      }
+      "1tbs"
     ],
     "comma-dangle": [
       "error",
