@@ -1,6 +1,7 @@
-const { Client, Intents } = require('discord.js');
-const generateEmbed = require('./embed');
-require('dotenv').config();
+import { Client, Intents } from 'discord.js';
+import generateEmbed from './embed.js';
+import { config as dotenvConfig } from 'dotenv';
+dotenvConfig();
 
 // Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
